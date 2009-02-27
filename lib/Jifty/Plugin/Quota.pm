@@ -2,8 +2,9 @@ use strict;
 use warnings;
 
 package Jifty::Plugin::Quota;
-
 use base qw/Jifty::Plugin/;
+
+our $VERSION = '0.01';
 
 =head1 NAME
 
